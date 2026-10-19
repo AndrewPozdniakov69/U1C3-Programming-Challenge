@@ -38,43 +38,43 @@ public class Solution {
     }
 
     public double add(double num1, double num2) {
-        //implement code here
-        return 0.00;
+        double addition = num1+num2;
+        return addition;
     }
 
     public double subtract(double num1, double num2) {
-        //implement code here
-        return 0.00;
+        double subtraction = num1-num2;
+        return subtraction;
     }
 
     public double multiply(double num1, double num2) {
-        //implement code here
-        return 0.00;
+        double multiplication = num1 * num2;
+        return multiplication;
     }
 
     public int quotient(int num1, int num2) {
-        //implement code here
-        return 0;
+        int divide = num1/num2;
+        return divide;
     }
 
     public int remainder(int num1, int num2) {
-        //implement code here
-        return 0;
+        int rem = num1%num2;
+        return rem;
     }
 
     public String divisionResult(int num1, int num2) {
-        //implement code here
-        return "";
+        String divres = (num1/num2);
+        return "divres";
     }
 
     public String coordinatePair(int x, int y) {
-        //implement code here
-        return "";
+        String coords = (x,y);
+        return "x,y";
     }
 
     public int average(int num1, int num2) {
-        //implement code here
-        return 0;
+        int mean = ((num1+num2)/2);
+        return mean;
     }
 
     public String info() {
